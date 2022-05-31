@@ -1,0 +1,35 @@
+body{
+    font-family: "raleway", sans-serif;
+    color: rgb(2, 89, 89);
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+
+
+}
+
+.thumbnail {
+    display: grid;
+    height: auto;
+    width: auto;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    border: 2px solid #15c5bf;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+  }
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.city{
+    display: inline-block;
+    align-content: stretch;
+}
