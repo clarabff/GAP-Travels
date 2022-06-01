@@ -1,6 +1,21 @@
 body{
-    font-family: "raleway", sans-serif;
-    color: rgb(2, 89, 89);
+    width: 100vw;
+    height: 100vh;
+    background: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, teal, yellow);
+    margin-top: 30px;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    border-radius: 8px;
+    border: none;
+
 }
 
 nav{
@@ -28,4 +43,10 @@ h1{
 .city{
     display: inline-block;
     align-content: stretch;
+    width: 1200px;
+    height: 630px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
 }
