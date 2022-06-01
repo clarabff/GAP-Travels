@@ -1,23 +1,26 @@
 body{
-    font-family: "raleway", sans-serif;
-    color: rgb(2, 89, 89);
+    font-family: sans-serif;
+    color: rgb(110, 179, 179);
+    background-color: teal;
+}
+h1{ color: white;}
+
+h2{ display: flex;
+    justify-content: center;
 }
 
 nav{
 display: flex;
 justify-content: space-around;
+}
+.jumbotron{
 
 
 }
-.jumbotron { 
-    padding: 30px; 
-    background-color: rgb(235, 233, 98);
-  }
-  
 ul li{
 list-style: none;
 display: inline-block;
-padding: 75px;
+padding: 50px
 }
 
 h1{
@@ -26,6 +29,11 @@ h1{
 }
 
 .city{
-    display: inline-block;
+    display: flex;
     align-content: stretch;
+    width: 1200px;
+    height: 1300px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
 }
